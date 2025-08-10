@@ -6,7 +6,7 @@ Now, I’m publishing it here on GitHub to share it and keep it as part of my po
 
 ---
 
-## ✨ Features
+##  Features
 
 - **RSA 2048-bit** for secure key exchange
 - **AES-256 (CBC mode)** for encrypted messages
@@ -16,6 +16,7 @@ Now, I’m publishing it here on GitHub to share it and keep it as part of my po
 - **Graceful exit** with `"exit"` command
 - Works on **localhost** by default
 
+---
 
 ## 🛠 Installation
 
@@ -24,43 +25,38 @@ Now, I’m publishing it here on GitHub to share it and keep it as part of my po
    git clone https://github.com/your-username/secure-chat.git
    cd secure-chat
 
+    Install dependencies
 
+pip install pycryptodome colorama
 
-2-Install dependencies
-      ```bash
-      pip install pycryptodome colorama
+Run the server
 
-3-Run the server
-       ```bash
-      python server.py
+python server.py
 
-4-Run the client (in another terminal)
-       ```bash
-      python client.py
+Run the client (in another terminal)
 
-## How It Works
+    python client.py
 
-   Server generates an RSA key pair and sends the public key to the client.
+🔑 How It Works
 
-   Client generates a random 256-bit AES key, encrypts it with the server's public key, and sends it back.
+    Server generates an RSA key pair and sends the public key to the client.
 
-   Both sides now share the same AES key for encrypting and decrypting messages.
+    Client generates a random 256-bit AES key, encrypts it with the server's public key, and sends it back.
 
-  Messages are encrypted with AES-CBC and protected with HMAC-SHA256.
+    Both sides now share the same AES key for encrypting and decrypting messages.
 
-  Color output shows:
+    Messages are encrypted with AES-CBC and protected with HMAC-SHA256.
 
-  🟣 Incoming messages (Fore.MAGENTA)
+    Color output shows:
 
-  🟢 Your messages (Fore.GREEN)
+        🟣 Incoming messages (Fore.MAGENTA)
 
-  🟡 System messages (Fore.YELLOW)
+        🟢 Your messages (Fore.GREEN)
 
-  🔴 Errors (Fore.RED)
+        🟡 System messages (Fore.YELLOW)
 
+        🔴 Errors (Fore.RED)
 
-
-
-## Author
+👨‍💻 Author
 
 Developed by abdelillah01

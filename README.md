@@ -27,15 +27,15 @@ Now, I’m publishing it here on GitHub to share it and keep it as part of my po
 
 
 2-Install dependencies
-
+      ```bash
       pip install pycryptodome colorama
 
 3-Run the server
-
+       ```bash
       python server.py
 
 4-Run the client (in another terminal)
-
+       ```bash
       python client.py
 
 ## How It Works

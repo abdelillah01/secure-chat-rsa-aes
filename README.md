@@ -28,15 +28,15 @@ Now, I’m publishing it here on GitHub to share it and keep it as part of my po
 
 2-Install dependencies
 
-pip install pycryptodome colorama
+      pip install pycryptodome colorama
 
 3-Run the server
 
-python server.py
+      python server.py
 
 4-Run the client (in another terminal)
 
-python client.py
+      python client.py
 
 ## How It Works
 
@@ -52,7 +52,7 @@ python client.py
 
   🟣 Incoming messages (Fore.MAGENTA)
 
-   🟢 Your messages (Fore.GREEN)
+  🟢 Your messages (Fore.GREEN)
 
   🟡 System messages (Fore.YELLOW)
 

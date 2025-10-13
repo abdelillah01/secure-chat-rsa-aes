@@ -22,7 +22,7 @@ Now, I’m publishing it here on GitHub to share it and keep it as part of my po
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/secure-chat.git
+   git clone https://github.com/abdelillah01/secure-chat-rsa-aes
    cd secure-chat
 
     Install dependencies

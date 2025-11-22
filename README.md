@@ -1,4 +1,4 @@
-# 🔒 PySecureChat – RSA & AES Encrypted Messaging
+#  PySecureChat – RSA & AES Encrypted Messaging
 
 This is a **secure client-server chat application** in Python, built using **RSA** for key exchange and **AES** for encrypted communication.  
 I originally developed this project a while ago as a personal learning exercise in **cryptography** and **network programming**.  
@@ -18,7 +18,7 @@ Now, I’m publishing it here on GitHub to share it and keep it as part of my po
 
 ---
 
-## 🛠 Installation
+##  Installation
 
 1. **Clone the repository**
    ```bash
@@ -37,7 +37,7 @@ Run the client (in another terminal)
 
     python client.py
 
-🔑 How It Works
+ How It Works
 
     Server generates an RSA key pair and sends the public key to the client.
 

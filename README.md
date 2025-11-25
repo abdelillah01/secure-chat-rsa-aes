@@ -31,7 +31,7 @@ pip install pycryptodome colorama
 
 Run the server
 
-python server.py
+      python server.py
 
 Run the client (in another terminal)
 
